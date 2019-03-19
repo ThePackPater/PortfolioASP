@@ -1,0 +1,51 @@
+body {
+    background: url("backdrop.png") no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-family: 'Noto Sans SC', sans-serif
+}
+
+.jumbotron {
+    background: none;
+    text-shadow: 2px 2px 8px #ffffff;
+}
+
+.me {
+    border-radius: 1%;
+    padding: 4%;
+}
+
+.polaroid {
+    float: left;
+    width: 17%;
+    border-radius: 1%;
+    height: auto;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0% 3% 10% 5%;
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+}
+
+.notecard {
+    float: left;
+    width: 70%;
+    border-radius: 1%;
+    height: auto;
+    background: url("index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0% 3% 10% 5%;
+    padding: 2%;
+    color: black;
+    text-indent: 15%;
+}
+
+.caption {
+    text-align: center;
+    padding: 1% 3%;
+}
