@@ -34,7 +34,7 @@ body {
 
 .polaroid {
     float: left;
-    width: 25%;
+    width: 15%;
     border-radius: 1%;
     height: auto;
     background-color: antiquewhite;
@@ -42,13 +42,41 @@ body {
     margin: 3%;
 }
 
-.caption {
-    text-align: center;
-    padding: 1% 3%;
+#caseFile {
+    float: right;
+    border-radius: 1%;
+    width: auto;
+    height: auto;
+    background-color: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 3%;
+}
+
+.grid2:hover {
+    border: solid 3px white;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#portfolio {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1%;
+    background: url("index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0%;
+    padding: .5%;
 }
 
 #notecard {
     width: 100%;
+    height: auto;
     border-radius: 1%;
     height: auto;
     background: url("index.jpg");
@@ -62,7 +90,6 @@ body {
 #notecard2 {
     width: 100%;
     border-radius: 1%;
-    height: auto;
     background: url("index.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,7 +99,8 @@ body {
 }
 
 #notecard3 {
-    width: 30%;
+    float: right;
+    width: 100%;
     border-radius: 1%;
     height: auto;
     background: url("index.jpg");
