@@ -20,10 +20,6 @@ body {
     z-index: +2;
 }
 
-#home {
-    padding: 1%;
-}
-
 #me {
     border-radius: 1%;
     padding: 4%;
@@ -39,10 +35,6 @@ body {
     margin: 3%;
 }
 
-#contact {
-    position: absolute;
-}
-
 .grid2:hover {
     border: solid 3px white;
 }
@@ -52,6 +44,8 @@ body {
     text-align: center;
     color: white;
     padding: 2%;
+    background-color: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #grid {
@@ -67,7 +61,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 0%;
+    margin-bottom: 2%;
     padding: .5%;
 }
 
