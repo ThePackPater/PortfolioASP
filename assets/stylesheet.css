@@ -9,7 +9,7 @@ body {
     text-shadow: 2px 2px 8px #ffffff;
 }
 
-.navbar-expand-lg {
+.navbar {
     background: url("stain.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +17,7 @@ body {
 }
 
 #home {
-    margin: 1%;
+    /* margin-bottom: 3%; */
     padding: 1%;
 }
 
@@ -36,8 +36,19 @@ body {
     margin: 3%;
 }
 
+#contact {
+    position: absolute;
+}
+
 .grid2:hover {
     border: solid 3px white;
+}
+
+.grid2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 2%;
 }
 
 #grid {
@@ -49,7 +60,7 @@ body {
 #portfolio {
     display: flex;
     justify-content: space-around;
-    background: url("index.jpg");
+    background: url("file2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -58,8 +69,13 @@ body {
 }
 
 figcaption {
-    color: black;
-    text-shadow: 2px 2px 8px #ffffff;
+    color: white;
+    text-shadow: 2px 2px 8px crimson;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 #notecard {
@@ -71,7 +87,7 @@ figcaption {
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 0%;
+    margin-bottom: 3%;
     padding: 2%;
 }
 
@@ -82,12 +98,11 @@ figcaption {
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 1%;
     padding: 2%;
+    margin-bottom: 3%;
 }
 
 #notecard3 {
-    float: right;
     width: 100%;
     border-radius: 1%;
     height: auto;
@@ -99,21 +114,16 @@ figcaption {
     padding: 2%;
 }
 
-.tabs li {
-    float: left;
-    position: relative;
-}
-
-.tabs .active a {
+.tabs a {
     float: left;
     padding: 10px 40px;
     background: crimson;
     color: white;
+    text-shadow: none;
     -webkit-border-top-left-radius: 15px;
     -webkit-border-top-right-radius: 15px;
     -moz-border-radius-topleft: 15px;
     -moz-border-radius-topright: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    text-shadow: none;
 }
