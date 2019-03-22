@@ -10,15 +10,17 @@ body {
 }
 
 .navbar {
+    position: fixed;
+    width: 100%;
     background: url("stain.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 2%;
     font-size: 2rem;
+    margin-bottom: 3%;
+    z-index: +2;
 }
 
 #home {
-    /* margin-bottom: 3%; */
     padding: 1%;
 }
 
