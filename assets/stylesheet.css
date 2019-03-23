@@ -21,7 +21,7 @@
     }
     
     .nav-link:hover {
-        background-color: crimson;
+        background-color: rgb(112, 97, 100);
         color: #ffffff
     }
     
@@ -44,7 +44,7 @@
     }
     
     .aLink:hover {
-        background-color: crimson;
+        background-color: rgb(112, 97, 100);
         color: black;
     }
     
@@ -75,10 +75,6 @@
         background-color: antiquewhite;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin: 3%;
-    }
-    
-    #imgCap {
-        text-align: center;
     }
     
     .grid2:hover {
@@ -146,8 +142,4 @@
         -moz-border-radius-topright: 15px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
-    }
-    
-    #fileFolder {
-        margin-bottom: 3%;
     }
